@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Basic">
+      <HintPath>..\0.DLL\Basic.dll</HintPath>
+    </Reference>
+    <Reference Include="HIS_DB_Lib">
+      <HintPath>..\0.DLL\HIS_DB_Lib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
